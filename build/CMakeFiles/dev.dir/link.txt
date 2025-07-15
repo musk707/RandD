@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/dev.dir/dev/main.cpp.o -o dev 

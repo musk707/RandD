@@ -1,3 +1,0 @@
-/home/musk/Documents/RandD/build/CMakeFiles/dev.dir
-/home/musk/Documents/RandD/build/CMakeFiles/edit_cache.dir
-/home/musk/Documents/RandD/build/CMakeFiles/rebuild_cache.dir
