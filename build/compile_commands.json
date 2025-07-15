@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/musk/Documents/RandD/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/dev.dir/dev/main.cpp.o -c /home/musk/Documents/RandD/dev/main.cpp",
+  "file": "/home/musk/Documents/RandD/dev/main.cpp",
+  "output": "CMakeFiles/dev.dir/dev/main.cpp.o"
+}
+]

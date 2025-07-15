@@ -1,0 +1,3 @@
+/home/musk/Documents/tmpbuild/CMakeFiles/dev.dir
+/home/musk/Documents/tmpbuild/CMakeFiles/edit_cache.dir
+/home/musk/Documents/tmpbuild/CMakeFiles/rebuild_cache.dir
