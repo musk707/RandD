@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dev.dir/dev/main.cpp.o"
-  "CMakeFiles/dev.dir/dev/main.cpp.o.d"
+  "CMakeFiles/dev.dir/dev/evennumber.cpp.o"
+  "CMakeFiles/dev.dir/dev/evennumber.cpp.o.d"
   "dev"
   "dev.pdb"
 )

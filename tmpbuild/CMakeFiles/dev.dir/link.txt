@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/dev.dir/dev/main.cpp.o -o dev 
+/usr/bin/c++ CMakeFiles/dev.dir/dev/evennumber.cpp.o -o dev 

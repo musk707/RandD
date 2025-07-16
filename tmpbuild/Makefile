@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/musk/Documents
+CMAKE_SOURCE_DIR = /home/musk/Documents/RandD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/musk/Documents/tmpbuild
+CMAKE_BINARY_DIR = /home/musk/Documents/RandD/tmpbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musk/Documents/tmpbuild/CMakeFiles /home/musk/Documents/tmpbuild//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musk/Documents/RandD/tmpbuild/CMakeFiles /home/musk/Documents/RandD/tmpbuild//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musk/Documents/tmpbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/musk/Documents/RandD/tmpbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ dev/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/build
 .PHONY : dev/fast
 
-dev/main.o: dev/main.cpp.o
-.PHONY : dev/main.o
+dev/evennumber.o: dev/evennumber.cpp.o
+.PHONY : dev/evennumber.o
 
 # target to build an object file
-dev/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/dev/main.cpp.o
-.PHONY : dev/main.cpp.o
+dev/evennumber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/dev/evennumber.cpp.o
+.PHONY : dev/evennumber.cpp.o
 
-dev/main.i: dev/main.cpp.i
-.PHONY : dev/main.i
+dev/evennumber.i: dev/evennumber.cpp.i
+.PHONY : dev/evennumber.i
 
 # target to preprocess a source file
-dev/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/dev/main.cpp.i
-.PHONY : dev/main.cpp.i
+dev/evennumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/dev/evennumber.cpp.i
+.PHONY : dev/evennumber.cpp.i
 
-dev/main.s: dev/main.cpp.s
-.PHONY : dev/main.s
+dev/evennumber.s: dev/evennumber.cpp.s
+.PHONY : dev/evennumber.s
 
 # target to generate assembly for a file
-dev/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/dev/main.cpp.s
-.PHONY : dev/main.cpp.s
+dev/evennumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/dev/evennumber.cpp.s
+.PHONY : dev/evennumber.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dev"
-	@echo "... dev/main.o"
-	@echo "... dev/main.i"
-	@echo "... dev/main.s"
+	@echo "... dev/evennumber.o"
+	@echo "... dev/evennumber.i"
+	@echo "... dev/evennumber.s"
 .PHONY : help
 
 

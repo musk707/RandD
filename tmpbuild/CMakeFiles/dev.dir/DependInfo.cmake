@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/musk/Documents/dev/main.cpp" "CMakeFiles/dev.dir/dev/main.cpp.o" "gcc" "CMakeFiles/dev.dir/dev/main.cpp.o.d"
+  "/home/musk/Documents/RandD/dev/evennumber.cpp" "CMakeFiles/dev.dir/dev/evennumber.cpp.o" "gcc" "CMakeFiles/dev.dir/dev/evennumber.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
