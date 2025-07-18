@@ -1,6 +1,6 @@
 #include <iostream>
 #include <array>
-
+#include <vector>
 
 int main()
 {
@@ -21,7 +21,9 @@ int main()
     // }
     // std::cout<<std::endl;
 
-    std::array<int, 5> numbers;
+    // std::array<int, 5> numbers;
+
+    std::vector<int> numbers;
 
     for(int i=0;i <5;i++)
     {
@@ -34,7 +36,7 @@ int main()
 
         }while (input >=10);
 
-        numbers[i]=input;
+        numbers.push_back(input);
     }
 
     int sum=0;
