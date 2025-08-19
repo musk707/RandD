@@ -1,7 +1,7 @@
 #include <iostream>
 #include <array>
 #include <vector>
-
+#include <algorithm>  
 int main()
 {
     // std::array<int, 10> numbers ={8,2,1,2,1,2,2,1,2,2};
@@ -23,7 +23,7 @@ int main()
 
     // std::array<int, 5> numbers;
 
-    std::vector<int> numbers;
+    std::vector<int> numbers ={8,2,1,2,1,2,2,1,2,2};
 
     for(int i=0;i <5;i++)
     {
@@ -39,14 +39,13 @@ int main()
         numbers.push_back(input);
     }
 
-    int sum=0;
-
+    // int sum=0;
+    std::sort(numbers.begin(),numbers.end());
     for (int n:numbers)
     {
-        sum+=n;
-        
+        std::cout<<n<<" ";
     }
-   std::cout<<"Sum of numbers is:"<<sum<<std::endl;
+//    std::cout<<"Sum of numbers is:"<<sum<<std::endl;
 
 
 
